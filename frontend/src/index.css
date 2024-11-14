@@ -13,6 +13,19 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hero {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 40vh; 
+}
+
+.hero-content {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
 .hero-content p {
   color: #000; 
 }
