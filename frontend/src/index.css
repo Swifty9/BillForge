@@ -13,6 +13,23 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.hero {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 40vh; 
+}
+
+.hero-content {
+    max-width: 600px; 
+    margin: 0 auto; 
+}
+
+.hero-content p {
+  color: #000; 
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,9 +42,10 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  flex-direction: column;
   min-width: 320px;
   min-height: 100vh;
+  width: 100%; 
 }
 
 h1 {
